@@ -6,10 +6,13 @@ You can edit this file as you like.
 , dependencies = [ 
       "console"
     , "effect"
+    , "integers"
     , "lists"
     , "maybe"
+    , "newtype"
     , "prelude"
     , "psci-support" 
+    , "strings"
     , "tuples"
     , "undefined"]
 , packages = ./packages.dhall
