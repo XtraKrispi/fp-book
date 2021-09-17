@@ -6,10 +6,12 @@ You can edit this file as you like.
 , dependencies = [ 
       "console"
     , "effect"
+    , "foldable-traversable"
     , "integers"
     , "lists"
     , "maybe"
     , "newtype"
+    , "nonempty"
     , "prelude"
     , "psci-support" 
     , "strings"
