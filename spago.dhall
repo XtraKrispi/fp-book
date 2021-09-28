@@ -5,6 +5,7 @@ You can edit this file as you like.
 { name = "my-project"
 , dependencies = [ 
       "console"
+    , "contravariant"
     , "effect"
     , "foldable-traversable"
     , "integers"
@@ -13,6 +14,7 @@ You can edit this file as you like.
     , "newtype"
     , "nonempty"
     , "prelude"
+    , "profunctor"
     , "psci-support" 
     , "strings"
     , "tuples"

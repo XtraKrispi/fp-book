@@ -2,7 +2,6 @@ module Ch9 where
 
 import Data.Generic.Rep (class Generic)
 import Data.Maybe (Maybe(..))
-import Data.Newtype (class Newtype)
 import Data.Show.Generic (genericShow)
 import Effect (Effect)
 import Effect.Console (log)
