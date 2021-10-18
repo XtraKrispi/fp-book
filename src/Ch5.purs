@@ -6,7 +6,6 @@ import Data.Tuple (Tuple(..), snd)
 import Effect (Effect)
 import Effect.Console (log)
 import Prelude (type (~>), Unit, discard, negate, otherwise, show, (+), (-), (/=), (<), (<<<), (==), (>), (>=), max)
-import Undefined (undefined)
 
 flip :: ∀ a b c. (a -> b -> c) -> b -> a -> c
 flip fn b a = fn a b
